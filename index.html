@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Responsive Gallery with Multiple Filters and Lightbox&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;link rel="stylesheet" href="styles.css"&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;h1&gt;Image Gallery&lt;/h1&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Filter Buttons --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="filter-buttons"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-btn" data-filter="nature"&gt;Nature&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-btn" data-filter="architecture"&gt;Architecture&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-btn" data-filter="technology"&gt;Technology&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button class="filter-btn clear-filter"&gt;Clear Filter&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Gallery Container --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="gallery"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="nature architecture"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=Nature+1" alt="Nature 1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="architecture"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=Architecture+1" alt="Architecture 1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="technology"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=Technology+1" alt="Technology 1"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="nature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=Nature+2" alt="Nature 2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="architecture"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=Architecture+2" alt="Architecture 2"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="gallery-item" data-categories="technology nature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;img src="https://via.placeholder.com/200x150.png?text=TechNature" alt="TechNature"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Lightbox Modal --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div id="lightbox" class="lightbox"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="close"&gt;&amp;times;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;img class="lightbox-content" id="lightbox-img"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="scripts.js"&gt;&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
